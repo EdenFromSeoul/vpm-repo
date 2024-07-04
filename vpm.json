@@ -80,6 +80,61 @@
           "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.124.0"
         }
       }
+    },
+    "com.vrmc.vrmshaders": {
+      "versions": {
+        "0.124.0": {
+          "name": "com.vrmc.vrmshaders",
+          "version": "0.124.0",
+          "displayName": "VRM Shaders",
+          "description": "VRM Shaders",
+          "unity": "2022.3",
+          "keywords": [
+            "vrm",
+            "shader"
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "dependencies": {
+            "com.unity.modules.imageconversion": "1.0.0"
+          },
+          "vpmDependencies": {},
+          "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.124.0"
+        }
+      }
+    },
+    "com.vrmc.gltf": {
+      "versions": {
+        "0.124.0": {
+          "name": "com.vrmc.gltf",
+          "version": "0.124.0",
+          "displayName": "UniGLTF",
+          "description": "GLTF importer and exporter",
+          "unity": "2022.3",
+          "keywords": [
+            "gltf"
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "dependencies": {
+            "com.vrmc.vrmshaders": "0.124.0",
+            "com.unity.modules.animation": "1.0.0"
+          },
+          "samples": [
+            {
+              "displayName": "GltfViewer",
+              "description": "UniGLTF runtime loader sample",
+              "path": "Samples~/GltfViewer"
+            }
+          ],
+          "vpmDependencies": {
+            "com.vrmc.vrmshaders": "0.124.0"
+          },
+          "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.124.0"
+        }
+      }
     }
   }
 }
