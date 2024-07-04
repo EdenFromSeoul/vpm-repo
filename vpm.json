@@ -31,7 +31,7 @@
         "0.124.0": {
           "name": "com.vrmc.vrm",
           "version": "0.124.0",
-          "displayName": "VRM",
+          "displayName": "VRM10",
           "description": "VRM importer",
           "unity": "2021.3",
           "keywords": [
