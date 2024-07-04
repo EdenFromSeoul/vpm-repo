@@ -26,6 +26,58 @@
         }
       }
     },
+    "com.vrmc.vrm": {
+      "versions": {
+        "0.124.0": {
+          "name": "com.vrmc.vrm",
+          "version": "0.124.0",
+          "displayName": "VRM",
+          "description": "VRM importer",
+          "unity": "2021.3",
+          "keywords": [
+            "vrm",
+            "importer",
+            "avatar",
+            "vr"
+          ],
+          "author": {
+            "name": "VRM Consortium"
+          },
+          "dependencies": {
+            "com.vrmc.vrmshaders": "0.124.0",
+            "com.vrmc.gltf": "0.124.0",
+            "com.unity.ugui": "1.0.0"
+          },
+          "samples": [
+            {
+              "displayName": "SimpleViewer",
+              "description": "VRM runtime loader sample",
+              "path": "Samples~/SimpleViewer"
+            },
+            {
+              "displayName": "FirstPersonSample",
+              "description": "First Person layer sample with multi camera",
+              "path": "Samples~/FirstPersonSample"
+            },
+            {
+              "displayName": "RuntimeExporterSample",
+              "description": "VRM runtime exporter sample",
+              "path": "Samples~/RuntimeExporterSample"
+            },
+            {
+              "displayName": "AnimationBridgeSample",
+              "description": "BlendShape animation clip sample",
+              "path": "Samples~/AnimationBridgeSample"
+            }
+          ],
+          "vpmDependencies": {
+            "com.vrmc.vrmshaders": "0.124.0",
+            "com.vrmc.gltf": "0.124.0"
+          },
+          "url": "https://cdn.eden-world.net/assets/vpm/VRM10-0.124.0.zip"
+        }
+      }
+    },
     "com.vrmc.univrm": {
       "versions": {
         "0.124.0": {
@@ -33,7 +85,7 @@
           "version": "0.124.0",
           "displayName": "VRM",
           "description": "VRM importer",
-          "unity": "2022.3",
+          "unity": "2021.3",
           "keywords": [
             "vrm",
             "importer",
@@ -77,7 +129,7 @@
             "com.vrmc.vrmshaders": "0.124.0",
             "com.vrmc.gltf": "0.124.0"
           },
-          "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRM#v0.124.0"
+          "url": "https://cdn.eden-world.net/assets/vpm/VRM-0.124.0.zip"
         }
       }
     },
@@ -88,7 +140,7 @@
           "version": "0.124.0",
           "displayName": "VRM Shaders",
           "description": "VRM Shaders",
-          "unity": "2022.3",
+          "unity": "2021.3",
           "keywords": [
             "vrm",
             "shader"
@@ -100,7 +152,7 @@
             "com.unity.modules.imageconversion": "1.0.0"
           },
           "vpmDependencies": {},
-          "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/VRMShaders#v0.124.0"
+          "url": "https://cdn.eden-world.net/assets/vpm/VRMShaders-0.124.0.zip"
         }
       }
     },
@@ -111,7 +163,7 @@
           "version": "0.124.0",
           "displayName": "UniGLTF",
           "description": "GLTF importer and exporter",
-          "unity": "2022.3",
+          "unity": "2021.3",
           "keywords": [
             "gltf"
           ],
@@ -132,7 +184,7 @@
           "vpmDependencies": {
             "com.vrmc.vrmshaders": "0.124.0"
           },
-          "url": "https://github.com/vrm-c/UniVRM.git?path=/Assets/UniGLTF#v0.124.0"
+          "url": "https://cdn.eden-world.net/assets/vpm/UniGLTF-0.124.0.zip"
         }
       }
     }
